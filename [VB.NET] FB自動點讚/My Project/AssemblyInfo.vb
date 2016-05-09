@@ -10,9 +10,9 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("[VB.NET] FB自動點讚")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("http://art.twgg.org/")> 
+<Assembly: AssemblyCompany("https://syneart.com/")> 
 <Assembly: AssemblyProduct("[VB.NET] FB自動點讚")> 
-<Assembly: AssemblyCopyright("Copyright © SyneArt 2013")> 
+<Assembly: AssemblyCopyright("Copyright © SyneArt")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 指定為預設值:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.3.0.0")> 
-<Assembly: AssemblyFileVersion("1.3.0.0")> 
+<Assembly: AssemblyVersion("1.4.0.0")> 
+<Assembly: AssemblyFileVersion("1.4.0.0")> 
