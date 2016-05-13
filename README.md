@@ -1,14 +1,14 @@
 # FBAutoLike
 FBAutoLike can Like or UnLike on per Facebook pages in all language. 
 
-#### Download File
-https://github.com/syneart/FBAutoLike/releases
+#### Download Latest File
+https://github.com/syneart/FBAutoLike/releases/latest
 <br /><br />
 ![image](https://raw.githubusercontent.com/syneart/FBAutoLike/master/FBAutoLike_snapshot.png)
 <br />
 #### System Requirement
-[Operating system]：Windows x86 or x64 XP(include) above version<br />
-[Required components]：.NET Framework 4.0 
+[Support operating system]：<br />Windows x86 or x64 of XP above version (contain XP)<br />
+[Required components (if can't execute)]：<br />.NET Framework 4.0 (https://www.microsoft.com/zh-tw/download/details.aspx?id=17718)
 
 <br />
 #### Version History<br />
@@ -29,3 +29,8 @@ https://github.com/syneart/FBAutoLike/releases
 	2/ 濾除圖片(速度優化)<br />
 <br />
 2013 年 02 月 02 日 - FBAutoLike v1.0<br />
+
+
+## License
+
+This program released under [MIT License](LICENSE).
