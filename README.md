@@ -7,11 +7,14 @@ https://github.com/syneart/FBAutoLike/releases/latest
 ![image](https://raw.githubusercontent.com/syneart/FBAutoLike/master/FBAutoLike_snapshot.png)
 <br />
 #### System Requirement
-[Support operating system]：<br />Windows x86 or x64 of XP above version (contain XP)<br />
+[Support operating system]：<br />Windows x86 or x64 of XP above version (contain XP)<br /><br />
 [Required components (if can't execute)]：<br />.NET Framework 4.0 (https://www.microsoft.com/zh-tw/download/details.aspx?id=17718)
 
 <br />
 #### Version History<br />
+2016 年 05 月 17 日 - FBAutoLike v1.5<br />
+	1/ 增加照片讚功能<br />
+<br />
 2016 年 05 月 09 日 - FBAutoLike v1.4<br />
 	1/ 修復按讚功能<br />
 	2/ 增加回覆讚功能<br />

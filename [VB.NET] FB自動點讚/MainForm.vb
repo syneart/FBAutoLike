@@ -3,6 +3,7 @@
 ' https://syneart.com
 '
 ' 版本變更:
+' 2016 年 05 月 17 日 - FBAutoLike v1.5 / 增加照片讚功能
 ' 2016 年 05 月 09 日 - FBAutoLike v1.4 / 修復按讚功能 與 增加回覆讚功能
 ' 2013 年 02 月 24 日 - FBAutoLike v1.3 / 增加動態讚與留言讚的按讚選擇 與 狀態顯示方式微調
 ' 2013 年 02 月 16 日 - FBAutoLike v1.2 / 增加間隔時間控制 與 剩餘時間顯示
@@ -72,12 +73,17 @@ Public Class MainForm
         If MyWebBrowser.ReadyState = WebBrowserReadyState.Complete Then
             Dim htmlDocument As HtmlDocument = MyWebBrowser.Document
             ' 不顯示圖片
-            For Each element In htmlDocument.GetElementsByTagName("img")
+            For Each element As HtmlElement In htmlDocument.GetElementsByTagName("img")
                 element.OuterHtml = ""
             Next
 
-            For Each element In htmlDocument.GetElementsByTagName("a")
+            For Each element As HtmlElement In htmlDocument.GetElementsByTagName("a")
+
                 ' 判斷 "讚" 或 "收回讚" 的連結 [由 isPressLike 參數決定]
+                If element.GetAttribute("classname").Contains(IIf(isPressLike, "_53o", "_53p")) Then
+                    element.InvokeMember("click") ' 照片讚
+                End If
+
                 If CheckBoxChooseTypeFeed.Checked And element.GetAttribute("data-testid").Contains(IIf(isPressLike, "fb-ufi-likelink", "fb-ufi-unlikelink")) Then
                     element.InvokeMember("click") ' 動態讚
                 End If

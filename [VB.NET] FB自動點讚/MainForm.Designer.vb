@@ -187,7 +187,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.ButtonStartAction)
         Me.Controls.Add(Me.MyWebBrowser)
         Me.Name = "MainForm"
-        Me.Text = "FB 自動點讚 v1.4 By SyneArt"
+        Me.Text = "FB 自動點讚 v1.5 By SyneArt"
         CType(Me.NumericUpDownLimitTime, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownDelayTime, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
